@@ -1,0 +1,8 @@
+
+myproject/frontend/dist/
+
+# Archivos que no se subiran al repositorio
+myproject/frontend/node_modules/
+
+myproject/frontend/.angular/
+
