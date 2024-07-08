@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class MyComponent {
   title: string = 'Ejemplo de data Blinding de clases teorica!';
-  
+    
   userInput: string = '';
 }

@@ -1,1 +1,6 @@
-<p>my-component works!</p>
+<h1>{{ title }}</h1>
+
+<button (click)="title = 'Ejemplo clase teorica'">Ejemplo de clase</button>
+
+<input [(ngModel)]="userInput" placeholder="Ejemplificando data blinding">
+<p>Has escrito: {{ userInput }}</p>
