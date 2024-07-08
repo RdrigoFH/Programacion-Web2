@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Git de Angular</title>
+    {% load static %}
     <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
-    <app-root></app-root>
+    <div id="app"></div>
     <script src="{% static 'runtime.js' %}"></script>
     <script src="{% static 'polyfills.js' %}"></script>
-    <script src="{% static 'styles.js' %}"></script>
-    <script src="{% static 'vendor.js' %}"></script>
     <script src="{% static 'main.js' %}"></script>
 </body>
 </html>
